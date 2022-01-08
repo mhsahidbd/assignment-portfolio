@@ -1,15 +1,39 @@
-body{font-family: 'Poppins';}
-h1{font-size: 50px;}
+body{font-family: 'Poppins';margin-left: 10px;}
+h1{font-size: 40px;text-align: justify;}
 .orangecolor{color: orange;}
 .linkbutton{background-color: orange;border-radius:5px;padding:  5px 10px;text-decoration: none;}
 section{display: flex; margin-bottom: 80px;margin-left: 20px;margin-right: 30px;}
-.half-width{width: 50%;margin-left: 10px 20px 30px 40px}
-.half-width img{width: 50%;}
-.top-area{
-    background-image: url();
+.half-width{width: 50%;}
+.half-width img{width: 50%;margin-left: 100px;}
+.third-width{width: 33%;}
+.third-width img{width: 55%;}
+.mission{background-color: paleturquoise; border: 2px solid paleturquoise;
+    padding: 10px 10px;
+    border-radius: 25px;
+     margin-right: 15px;}
+.mission p{margin-left: 20px;}
+.vission{background-color: pink;
+    border: 2px solid pink;
+    padding: 10px 10px;
+    border-radius: 25px;
+    margin-right: 15px;}
+.vission p{margin-left: 20px;}
+
+.goals{background-color: palegoldenrod;
+    border: 2px solid palegoldenrod;
+    padding: 10px 10px;
+    border-radius: 25px;
+    margin-right: 15px;}
+.goals p{margin-left: 20px;}
+
+  
+.content-area{
+      background-image: url(pictures/dream-bg.png);
+      background-repeat: no-repeat;
+      background-position: left;
 }
-.footer{text-align: center;}
-.footer h2{
-    font-family: sans-serif;
-    font-weight: 300;
-}
+
+footer{padding: 5px;background-color: papayawhip;margin-bottom: 3px;}
+footer p{text-align: center;}
+footer h2{text-align: center;}
+
